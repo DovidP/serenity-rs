@@ -1348,7 +1348,7 @@ pub enum Event {
     /// A user has removed a previous vote on a Message Poll.
     MessagePollVoteRemove(MessagePollVoteRemoveEvent),
     /// An event type not covered by the above
-    #[serde(untagged)]
+    // #[serde(untagged)]
     Unknown(UnknownEvent),
 }
 
